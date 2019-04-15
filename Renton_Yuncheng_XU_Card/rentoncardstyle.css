@@ -1,0 +1,100 @@
+/*Renton card*/
+
+.RentonCard {
+  border: 1.5px solid darkblue;
+  box-shadow:0 4px 10px 0;
+  background-color:white;
+  min-width: 450px;
+  width:50%;
+}
+
+.RC-margin{
+  margin:16px;
+}
+
+.RC-container{
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
+
+.RC-text-white{
+  color:black;
+}
+
+/* Know more button */
+.RC-btn.btnposi {
+  text-align:center;
+  margin:auto;
+}
+
+.RC-btn.btncontent {
+  background-color: green;
+  color: white;
+  border: 2px darkgreen;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  opacity: 0.6;
+}
+
+.RC-btn:hover{
+  opacity: 1;
+}
+
+/* SQ3R List */
+.sq3rlist {
+  width: 450px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: .25rem 0;
+}
+
+.sq3rlist .sq3rpoint {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.sq3rlist.green .sq3rpoint {
+  background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+.sq3rlist:hover .sq3rpoint {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.sq3rlist .sq3rpoint .sq3rPointExtend {
+  width: 50%;
+  float: left;
+  position: absolute;
+  left: 150px;
+  height: 100%;
+}
+
+.sq3r_img {
+  position: absolute;
+}
+
+.sq3rlist .sq3rpoint .details {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
+
+}
+
+.sq3rlist.green .sq3rpoint .details {
+  color: black;
+  width: 100%;
+}
+
+.sq3rlist.green .sq3rpoint {
+  color: #325C46;
+}
