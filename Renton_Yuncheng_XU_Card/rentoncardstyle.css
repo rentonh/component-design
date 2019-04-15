@@ -22,6 +22,10 @@
   color:black;
 }
 
+.RC-container.RC-text-white.mainimg {
+  width:100%;
+}
+
 /* Know more button */
 .RC-btn.btnposi {
   text-align:center;
