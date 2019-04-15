@@ -1,0 +1,145 @@
+/* general */
+hr {
+  width: 100%;
+}
+
+/* fonts*/
+.CB-font-itlc {
+  font-style: italic;
+}
+
+.CB-font-tts {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.CB-font-ahs {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* buttons*/
+.CB-linkbtn {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+}
+
+.CB-linkbtn:hover {
+  background-color: #ccc;
+  opacity: .9;
+  color: #000
+}
+
+/* Background colors*/
+.cbc {
+  width: 150px;
+  height: 100px;
+  margin: 0 5px 10px 10px;
+  float: left;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.cbc.white {
+  background-color: #fff;
+  color: black;
+}
+.cbc.darkblue {
+  background-color: #03376a;
+  color: white;
+}
+.cbc.darkblue {
+  background-color: #03376a;
+  color: white;
+}
+.cbc.red {
+  background-color: #b12818;
+  color: white;
+}
+.cbc.black {
+  background-color: #000;
+  color: white;
+}
+.cbc.darkgrey {
+  background-color: #666;
+  color: white;
+}
+.cbc.lightgrey {
+  background-color: #ccc;
+  color: black;
+}
+
+/* blocks */
+.sidebar {
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: black;
+  float:left;
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+}
+.sidebar-nav {
+  width:100%;
+  text-align: center;
+}
+.sidebar-nav:hover {
+  background-color: #aaa;
+}
+
+.headbar {
+  width: 30%;
+  height: 10%;
+  min-width: 150px;
+  min-height: 50px;
+  background-color: #ccc;
+  border: 2px solid black;
+  float:left;
+  margin: 5px;
+  text-align: center;
+}
+
+.navbar {
+  width: 60%;
+  min-height: 30px;
+  background-color: #666;
+  border: 2px solid black;
+  float:left;
+  margin: 5px 5px 0;
+
+  color: #fff;
+  position:relative;
+}
+
+.navbar-nav {
+  width:100%;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.navbar-nav a {
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: #000;
+}
+
+.contentbar {
+  width: 70%;
+  height: 90%;
+  min-width: 500px;
+  background-color: #ccc;
+  border: 2px solid black;
+  float:left;
+  margin: 5px;
+  text-align: center;
+}
+.contentbar-nav {
+  text-align: left;
+  padding-left: 15px;
+}
