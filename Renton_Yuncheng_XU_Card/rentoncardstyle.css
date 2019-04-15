@@ -33,19 +33,20 @@
 }
 
 .RC-btn.btncontent {
-  background-color: green;
+  background-color: #00663E;
   color: white;
   border: 2px darkgreen;
   border-radius: 5px;
   cursor: pointer;
   width: 150px;
   height: 50px;
-  opacity: 0.6;
   font-size: 25px;
 }
 
-.RC-btn:hover{
-  opacity: 1;
+.RC-btn.btncontent:hover{
+  opacity: .7;
+  background-color: yellow;
+  color: black;
 }
 
 /* SQ3R List */
