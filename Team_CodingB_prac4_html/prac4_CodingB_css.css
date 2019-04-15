@@ -1,0 +1,142 @@
+/* new */
+.headerrow {
+  width:100%;
+  height:10%;
+  min-width: 500px;
+  min-height: 80px;
+}
+
+.headbar {
+  width: 30%;
+  background-color: #03376a;
+  border: 2px solid black;
+  float:left;
+  margin: 3px 1px;
+  text-align: center;
+  color: #fff;
+  position:relative;
+}
+
+.headbar.minwidth {
+  min-width: 100px;
+}
+
+.buttonbar {
+  width: 60%;
+  min-height: 30px;
+  background-color: #b12818;
+  border: 2px solid black;
+  float:left;
+  margin: 3px 1px 0;
+  text-align: right;
+  color: #fff;
+  position:relative;
+}
+
+.navbar {
+  width: 60%;
+  min-height: 30px;
+  background-color: #666;
+  border: 2px solid black;
+  float:left;
+  margin: 3px 1px 0;
+  text-align: right;
+  color: #fff;
+  position:relative;
+}
+
+.navbar-nav {
+  width:100%;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.navbar-nav a {
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: #000;
+}
+
+.buttonbar,.navbar.minwidth {
+  min-width: 200px;
+}
+
+
+.CB-linkbtn2 {
+  border-radius: 5px;
+  background-color: #666;
+  color: #fff;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.CB-linkbtn2:hover {
+  background-color: #ccc;
+  opacity: .9;
+  color: #000
+}
+
+/*body row*/
+.contentrow {
+  width:100%;
+  height:90%;
+  min-width: 500px;
+  min-height: 300px;
+}
+
+.sidebar {
+  width: 30%;
+  height: 90%;
+
+  min-height: 300px;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: black;
+  float:left;
+  text-align: center;
+  border: 2px solid black;
+  margin: 1px 1px;
+}
+.sidebar-nav {
+  width:100%;
+  text-align: center;
+}
+.sidebar-nav:hover {
+  background-color: #aaa;
+}
+
+.contentbar {
+  width: 60%;
+  height: 90%;
+  min-height: 300px;
+  background-color: #fff;
+  border: 2px solid black;
+  float:left;
+  margin: 1px 1px;
+  text-align: center;
+}
+.contentbar-nav {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.footerrow {
+  width: 100%;
+}
+.footerbar {
+  min-width: 200px;
+  height: 50px;
+  float:left;
+  border: 2px solid black;
+  background-color: #03376a;
+  text-align: center;
+  color:#fff;
+  font-size: 30px;
+}
+.footerbar p {
+  margin: 5px auto;
+}
